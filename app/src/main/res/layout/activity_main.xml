@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="#F5F5F5">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Comercializadora Ángel"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#2C3E50"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sistema de Gestión de Bodega"
+        android:textSize="16sp"
+        android:layout_marginBottom="32dp"
+        android:textColor="#7F8C8D" />
+
+    <Button
+        android:id="@+id/btnGestionCategorias"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gestión de Categorías"
+        android:layout_marginBottom="12dp" />
+
+    <Button
+        android:id="@+id/btnGestionProveedores"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gestión de Proveedores"
+        android:layout_marginBottom="12dp" />
+
+    <Button
+        android:id="@+id/btnGestionProductos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gestión de Productos e Inventario" />
+
+</LinearLayout>
